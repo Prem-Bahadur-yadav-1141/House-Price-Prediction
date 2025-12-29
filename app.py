@@ -1,4 +1,4 @@
-\from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import RandomForestRegressor
 import streamlit as st
 import pickle
 from sklearn.preprocessing import StandardScaler
@@ -46,3 +46,4 @@ with st.spinner('Predicting House Price'):
 
 st.success(f'Estimated House Price is: $ {final_price}')
 st.markdown('''**Design and Developed by: Ankit Mishra**''')
+
