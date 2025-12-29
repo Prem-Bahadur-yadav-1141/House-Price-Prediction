@@ -46,4 +46,3 @@ with st.spinner('Predicting House Price'):
 
 st.success(f'Estimated House Price is: $ {final_price}')
 st.markdown('''**Design and Developed by: Ankit Mishra**''')
-
