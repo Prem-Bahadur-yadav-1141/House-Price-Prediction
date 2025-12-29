@@ -6,7 +6,7 @@ import time
 from sklearn.datasets import fetch_california_housing
 st.title('🏠House Price prediction using ML')
 
-st.image(''https://upload.wikimedia.org/wikipedia/commons/b/b7/House-animated.gif')
+st.image('https://upload.wikimedia.org/wikipedia/commons/b/b7/House-animated.gif')
 df = pd.read_csv('house_data.csv')
 X = df.iloc[:,:-3]
 y = df.iloc[:,-1]
@@ -23,5 +23,6 @@ for i in final_X:
   all_value.append(result)
 
 st.write(all_value)
+
 
 
